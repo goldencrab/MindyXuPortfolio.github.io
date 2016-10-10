@@ -1,0 +1,95 @@
+	
+	body {
+			background: url(images/grid.png);
+			font: 12px "Lucida Console", Monaco, monospace;
+			color: #b3e0ff;
+		}
+		h1{
+			font: 300% Helvetica;
+			color: #d9d9d9;
+		}
+		h2{
+			font: 200% Helvetica;
+			color: #d9d9d9;
+		}
+		
+		h3{
+			color: #d9d9d9;
+		}
+		
+		#wrapper{
+			width: 1100px;
+			margin: 0 auto;
+			padding: 0 50px;
+			text-align: left;
+			position: relative;
+		}
+		header#mainHeader{
+			height: 185px;
+			background: url(images/logo.png) no-repeat 70px center;
+			padding: 0px 75px 0px 300px;
+			position: relative;
+			border-bottom: 2px solid #d9d9d9;
+			margin-bottom: 16px;
+		}
+		
+		header#mainHeader div{
+			margin-top: 16px;
+		}
+		header#mainHeader ul{
+			list-style: none;
+			float: left;
+		}
+		header#mainHeader ul li {
+			float: left;
+		}
+		header#mainHeader ul li a {
+			color: #d9d9d9;
+			font-size: 14px;
+			padding: 0 20px;
+			border-right: 1px solid #d9d9d9;
+			text-decoration: none;
+		}
+		
+		header#mainHeader ul li:a.last{
+			border: none;
+		}
+		
+		header#mainHeader ul li a:hover{
+			color: #373737;
+		}
+		section#content{
+			float: left;
+			width: 600px;
+			padding: 0 10px 0 25px;
+			margin-bottom: 10px;
+			border-right: 1px solid #d9d9d9;
+		}
+		
+		section#content p { 
+			line-height: 1.6;
+			margin-bottom: 10px;
+		}
+		
+		section#content img{
+			border-radius: 10px;
+		}
+		
+		aside#events{
+			float: right;
+			width: 450px;
+			margin-bottom: 20px;
+		}
+		
+		footer#pageFooter{
+			clear: both;
+			border-top: 2px solid #d9d9d9;
+			padding: 20px;
+		}
+		
+		footer#pageFooter p {
+			text-align: center;
+			font-style: italic;
+			margin-bottom: 10px;
+			color: #d9d9d9;
+		}
