@@ -1,12 +1,14 @@
 	
 	body {
-			background: url(images/grid.png);
+			background-image: url(images/grid.png);
+			background-attachment: fixed;
 			font: 12px "Lucida Console", Monaco, monospace;
 			color: #b3e0ff;
 		}
 		h1{
 			font: 300% Helvetica;
 			color: #d9d9d9;
+			text-decoration: underline
 		}
 		h2{
 			font: 200% Helvetica;
@@ -51,7 +53,7 @@
 			text-decoration: none;
 		}
 		
-		header#mainHeader ul li:a.last{
+		header#mainHeader ul li:last-child a{
 			border: none;
 		}
 		
@@ -63,7 +65,7 @@
 			width: 600px;
 			padding: 0 10px 0 25px;
 			margin-bottom: 10px;
-			border-right: 1px solid #d9d9d9;
+			border-right: 1px dotted #d9d9d9;
 		}
 		
 		section#content p { 
@@ -79,6 +81,10 @@
 			float: right;
 			width: 450px;
 			margin-bottom: 20px;
+		}
+		
+		aside#events h3{
+			color: #b3e0ff;
 		}
 		
 		footer#pageFooter{
