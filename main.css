@@ -1,9 +1,15 @@
 	
 	body {
+			cursor:url("images/cursor.png"), auto;
 			background-image: url(images/grid.png);
 			background-attachment: fixed;
 			font: 12px "Lucida Console", Monaco, monospace;
 			color: #b3e0ff;
+		}
+		
+		a , a:hover {
+			cursor:url("images/cursor.png"), auto;
+			font-style: normal;
 		}
 		h1{
 			font: 300% Helvetica;
